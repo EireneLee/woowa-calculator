@@ -1,0 +1,74 @@
+body {
+  padding:0;
+  margin:0 auto;
+  font-family:Noto Sans, sans-serif;
+  font-size: 2em;
+}
+
+#app {
+  width: 30em;
+}
+
+header + p {
+  color: #555;
+}
+
+nav {
+  margin-top: 3em;
+}
+
+ul {
+  padding-left: 1em;
+}
+
+ul li {
+  font-size: 0.7em;
+  margin-bottom: 0.6em;
+}
+
+footer {
+  margin-top: 3em;
+  font-size: 0.7em;
+  color: #888;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+pre {
+  font-weight: lighter;
+  font-size: 0.7em;
+  background: #f0f0f0;
+}
+
+a {
+  color: black;
+  padding: 2px 2px 2px 2px;
+  text-decoration: none;
+}
+
+a.active {
+  border-bottom: 3px solid #2ac1bc;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;  
+}
+
+.contents {}
+
+/* calculator */
+.cal-wrapper {position:absolute; top:50%; left:50%; transform: translate(-50%, -50%); }
+.cal-content {position:relative; overflow:hidden; width:400px; padding:20px 10px; background:#2ac1bc; margin:50px auto; border-radius:10px;}
+h1 {position:absolute; top:15px; left:30px; color:#ffffff; font-size:16px;}
+.sum {height:50px; margin:40px 20px 0; padding:20px 20px 18px; background:#f4f4f4; color:#2ac1bc; text-align:right; border-radius:10px;}
+table {width:100%; padding:20px 10px;}
+table td {width:40px; padding:20px 0; background:#f4f4f4; color:#2ac1bc; text-align:center; border-radius:20px;}
+table td.math {background:#f5f759;}
+table td:hover, table td:active {background:#4f5bfb; color:#ffffff;}
